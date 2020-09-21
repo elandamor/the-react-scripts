@@ -1,0 +1,27 @@
+{
+  "name": "the-react-scripts",
+  "version": "0.1.0",
+  "description": "Helper scripts for your react project",
+  "author": "Thandolwethu Mpofu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elandamor/the-react-scripts.git"
+  },
+  "files": [
+    "bin",
+    "internals",
+    "scripts"
+  ],
+  "bin": {
+    "the-react-scripts": "./bin/the-react-scripts.js"
+  },
+  "dependencies": {
+    "fs-extra": "9.0.1",
+    "node-plop": "0.26.2",
+    "plop": "2.7.4"
+  },
+  "optionalDependencies": {
+    "fsevents": "2.1.3"
+  }
+}
